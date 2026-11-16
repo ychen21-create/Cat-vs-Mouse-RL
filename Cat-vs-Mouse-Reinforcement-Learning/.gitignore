@@ -1,0 +1,26 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Slides and final written reports are submitted separately for the course
+*.pptx
+*.ppt
+*.pdf
+*.docx
+
+# Intentionally tracked: results/*.npy, results/*.pt, results/*.csv,
+# results/tuning/*.csv and results/learning_curves.png.

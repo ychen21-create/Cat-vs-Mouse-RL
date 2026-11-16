@@ -1,0 +1,39 @@
+{
+  "python": "3.13.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "torch": "2.15.0+cpu",
+  "cuda_available": false,
+  "args": {
+    "episodes": 1000,
+    "eval_episodes": 100,
+    "seeds": 3,
+    "maps": [
+      "empty",
+      "obstacles",
+      "hard"
+    ],
+    "modes": [
+      "static",
+      "moving"
+    ],
+    "rewards": [
+      "standard",
+      "shaped"
+    ],
+    "algorithms": [
+      "q_learning",
+      "sarsa",
+      "reinforce"
+    ],
+    "alpha": 0.2,
+    "gamma": 0.97,
+    "epsilon_decay": 0.996,
+    "lr": 0.003,
+    "hidden": 64,
+    "entropy": 0.01,
+    "slip": 0.1,
+    "out": "results"
+  },
+  "note": "Training hardware is measured on the machine that runs this command."
+}
